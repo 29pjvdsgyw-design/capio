@@ -94,7 +94,20 @@ export default function CapioHomepage() {
           </div>
         </section>
 
-      </main>
+      </main>      
+
+      <footer className="border-t bg-white">
+        <div className="max-w-4xl mx-auto px-6 py-8 text-sm text-gray-600 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex gap-4">
+            <a href="/impresszum" className="hover:underline">Impresszum</a>
+            <a href="/adatvedelem" className="hover:underline">Adatvédelem</a>
+          </div>
+
+          <div className="text-gray-500">
+            © {new Date().getFullYear()} Capio
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }

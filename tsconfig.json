@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/app/impresszum/impresszum"  ],
   "exclude": ["node_modules"]
 }
