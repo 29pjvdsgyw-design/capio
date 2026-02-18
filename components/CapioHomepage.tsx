@@ -27,7 +27,7 @@ export default function CapioHomepage() {
         {/* HERO */}
         <section className="text-center mb-16">
           <h1 className="text-4xl font-bold mb-4">
-            Capio — Elemzés. Érthetően.
+            Capio — Tisztábban látni
           </h1>
           <p className="text-gray-600">
             Politika, gazdaság, természettudomány és kultúra
